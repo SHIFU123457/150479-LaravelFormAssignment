@@ -13,18 +13,19 @@
 body{
     margin: 0;
     background-color: orange;
+    text-align: center;
 }
 .div00{
-    display: flex;
+    text-align:center;
 }
 .div1{
-    width: 30%;
-    height: 800px;
+    max-width: 400px;
+    max-height: 800px;
     align-items:center;
     padding: 10px;
     background-color:aqua;
     margin-top: 30px;
-    margin-left: 800px;
+    margin-left: 440px;
     border-radius: 10px;
     box-shadow: 4px 4px 3px black;
     text-align:center;
@@ -79,10 +80,10 @@ select{
     margin-top: 10px;
 }
 table{
-    margin-left: 700px;
     float: center;
     padding: 20px 30px;
     text-align:center;
+    margin-left: 100px;
 }
 td, th{
     align-items: center;

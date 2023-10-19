@@ -18,6 +18,7 @@ if(isset($_POST["submit"])){
 }
     ?>
 <body>
+    <div class="div00">
     <div class="div1">
         <h1>INPUT FORM</h1>
         <form action="" method="POST" autocomplete="off">
@@ -63,6 +64,7 @@ if(isset($_POST["submit"])){
     <div>
 
     </div>
+</div>
 
 </body>
 </html>
